@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body nav {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+body nav a {
+    position:relative;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    padding: 10px;
+}
+
+body nav a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+body.home nav a.home,
+body.product nav a.product,
+body.business nav a.business {
+    color: rgba(255, 255, 255, 1);
+}
+
